@@ -1,0 +1,12 @@
+<div class="container" align="center">
+<div align="center"><h2>Users List Using Angular For to Iterate though JSON Response</h2></div>
+<ul align="center">
+  <li *ngFor="let user of users$"><a routerLink="/users/:id">
+    {{ user.name }}
+  |
+    {{ user.email }}
+  |
+    {{ user.phone }}</a>
+  </li>
+</ul>
+</div> 

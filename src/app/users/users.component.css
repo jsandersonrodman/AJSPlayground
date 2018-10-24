@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+}
+li{
+    padding-bottom: 5px;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 50%;
+    align-content: center;
+    align-self: center;
+    box-align: center;
+    margin-left: 25%;
+}
+div{
+    width:50% !important;
+}
